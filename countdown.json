@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "title": "Event Countdown",
+  "targetUnix": 1767222000,
+  "durationSeconds": 31536000,
+  "display": {
+    "showSecondsBelowSeconds": 86400,
+    "finishedText": "START"
+  },
+  "thresholds": [
+    {
+      "id": "half",
+      "progressPercent": 50,
+      "eventName": "OnCountdownBelow50"
+    },
+    {
+      "id": "quarter",
+      "progressPercent": 75,
+      "eventName": "OnCountdownBelow25"
+    },
+    {
+      "id": "final",
+      "progressPercent": 90,
+      "eventName": "OnCountdownFinalPhase"
+    }
+  ]
+}
