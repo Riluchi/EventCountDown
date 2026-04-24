@@ -2,7 +2,7 @@
   "version": 1,
   "title": "Event Countdown",
   "targetUnix": 1767222000,
-  "durationSeconds": 31536000,
+  "durationSeconds": 3153600,
   "display": {
     "showSecondsBelowSeconds": 86400,
     "finishedText": "START"
